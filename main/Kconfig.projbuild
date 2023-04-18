@@ -1,0 +1,32 @@
+menu "Wi-Fi configuration"
+  config WIFI_SSID
+    string "Wi-Fi SSID"
+    default "myssid"
+    help
+      Wi-Fi SSID.
+  
+  config WIFI_PASS
+    string "Wi-Fi Password"
+    default "mypass"
+    help
+      Wi-Fi Password.
+endmenu
+menu "MQTT configuration"
+  config MQTT_BROKER
+    string "MQTT Broker"
+    default "mqtt://test.mosquitto.org"
+    help
+      MQTT URI.
+
+  config MQTT_USER
+    string "MQTT User"
+    default "myuser"
+    help
+      MQTT User.
+  
+  config MQTT_PASS
+    string "MQTT Password"
+    default "mypass"
+    help
+      MQTT Password.
+endmenu
