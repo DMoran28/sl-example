@@ -10,7 +10,7 @@ Para el desarrollo de este caso de estudio práctico se ha utilizado el entorno 
 A continuación, se clona este repositorio a través del siguiente comando:
 
 ```sh
-git clone https://github.com/dmoran28/sl-example
+git clone https://github.com/dmoran28/sl-example.git
 ```
 
 ### *Broker* MQTT
