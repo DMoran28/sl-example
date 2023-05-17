@@ -1,5 +1,7 @@
-# Caso de estudia sobre la seguridad en protocolos de comunicación
-En este caso de estudio práctico se realiza una demonstración de ataque de denegación de servicio sobre un dispositivo ESP32 que presenta un servidor HTTP a modo de RESTful API sin sistemas de autenticación. Por otro lado, se realiza un ataque MitM entre este dispositivo y el *broker* MQTT a través de Wireshark para obtener las credenciales de acceso del mismo al no tener mecanismos de cifrado en la comunicación.
+# Caso de estudio sobre la seguridad en protocolos de comunicación
+En este caso de estudio práctico se realiza una demonstración de un ataque de denegación de servicio sobre un dispositivo ESP32 que presenta un servidor HTTP a modo de RESTful API sin sistemas de autenticación. Por otro lado, se realiza un ataque MitM entre este dispositivo y un broker MQTT a través de Wireshark para obtener las credenciales de acceso del mismo al no tener mecanismos de cifrado en la comunicación. En la siguiente figura se refleja el esquema de actuación del caso de estudio definido.
+
+![Esquema de actuación del caso de uso definido](schema.png)
 
 ## Instalación de dependencias
 A continuación se describen los pasos a seguir a la hora de instalar el entorno ESP-IDF para la configuración del dispositivo ESP32, además de describir el proceso de instalación del *broker* MQTT en local.
